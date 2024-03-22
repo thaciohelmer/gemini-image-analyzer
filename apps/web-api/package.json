@@ -1,0 +1,22 @@
+{
+  "name": "@gemini-image-analyzer/web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file .env index.js"
+  },
+  "keywords": [],
+  "author": "thaciohelmer",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
